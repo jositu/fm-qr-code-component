@@ -1,0 +1,78 @@
+@import url('normalize.css');
+
+:root {
+  --color-dark: hsl(218, 44%, 22%);
+  --color-med: hsl(220, 15%, 55%);
+  --color-light: hsl(212, 45%, 89%);
+  --color-white: hsl(0, 0%, 100%);
+  --font-size: 15px;
+  --font-family: 'Outfit', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: var(--font-size);
+}
+
+body {
+  background-color: var(--color-light);
+  font-family: var(--font-family);
+  line-height: 1.2;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Card */
+
+.card {
+  background-color: var(--color-white);
+  padding: 1rem;
+  border-radius: 20px;
+  box-shadow: 0 5px 20px hsla(219, 15%, 55%, 0.2);
+  max-width: 315px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card--content {
+  padding: 1rem;
+}
+
+.card h2 {
+  color: var(--color-dark);
+  margin: 0.5rem 0;
+}
+
+.card p {
+  color: var(--color-med);
+  margin: 0.75rem 0;
+}
+
+/* Attribution */
+
+.attribution {
+  position: fixed;
+  bottom: 1rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
