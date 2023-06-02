@@ -7,7 +7,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ## Table of contents
 
 - [Overview](#overview)
-  - [Screenshot](#screenshot)
+  <!-- - [Screenshot](#screenshot) -->
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -16,13 +16,13 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ## Overview
 
-### Screenshot
+<!-- ### Screenshot
 
-![](./screenshot.jpg)
+![](./screenshot.jpg) -->
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/basic-card-component-tJPYA-F6_R](https://www.frontendmentor.io/solutions/basic-card-component-tJPYA-F6_R)
 - Live Site URL: [jositu.github.io/fm-qr-code-component/](jositu.github.io/fm-qr-code-component/)
 
 ## My process
@@ -33,6 +33,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - CSS custom properties
 - Flexbox
 - [Normalize.css](https://necolas.github.io/normalize.css/)
+
+<!-- ~1hr~ -->
 
 ### Useful resources
 
